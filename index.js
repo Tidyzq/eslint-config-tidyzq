@@ -99,8 +99,8 @@ module.exports = {
     // disallow unused variables
     'no-unused-vars': 'warn',
     // allow debugger during development
-    'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0,
+    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     // allow console during development
-    'no-console': process.env.NODE_ENV === 'production' ? 2 : 0,
+    'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
   }
 }
