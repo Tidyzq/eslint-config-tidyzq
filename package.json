@@ -1,0 +1,26 @@
+{
+  "name": "eslint-config-tidyzq",
+  "version": "1.0.0",
+  "description": "eslint shareable config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tidyzq/eslint-config-tidyzq.git"
+  },
+  "keywords": [
+    "eslint",
+    "tidyzq"
+  ],
+  "author": "Tidyzq",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Tidyzq/eslint-config-tidyzq/issues"
+  },
+  "homepage": "https://github.com/Tidyzq/eslint-config-tidyzq#readme",
+  "dependencies": {
+    "eslint": "^3.19.0"
+  }
+}
