@@ -66,6 +66,8 @@ module.exports = {
     'no-trailing-spaces': 'warn',
     // enforce the consistent use of single quotes
     'quotes': [ 'warn', 'single' ],
+    // disallow quotes around object literal property names
+    'quote-props': [ 'warn', 'as-needed' ],
     // disallow semicolons instead of ASI
     'semi': [ 'warn', 'never' ],
     // require space before blocks
