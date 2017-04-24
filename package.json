@@ -10,6 +10,9 @@
     "type": "git",
     "url": "git+https://github.com/Tidyzq/eslint-config-tidyzq.git"
   },
+  "files": [
+    "index.js"
+  ],
   "keywords": [
     "eslint",
     "tidyzq"

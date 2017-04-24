@@ -5,15 +5,15 @@ module.exports = {
     // enforce the use of variables within the scope they are defined
     'block-scoped-var': 'error',
     // enforce consistent brace style for all control statements
-    'curly': 'error',
+    curly: 'error',
     // require default cases in switch statements
     'default-case': 'error',
     // enforce consistent newlines before dots
-    'dot-location': ['error', 'property'],
+    'dot-location': [ 'error', 'property' ],
     // enforce dot notation whenever possible
     'dot-notation': 'error',
     // require the use of === and !==
-    'eqeqeq': 'error',
+    eqeqeq: 'error',
     // warn the use of alert, confirm, and prompt
     'no-alert': 'warn',
     // disallow the use of eval()
@@ -37,15 +37,15 @@ module.exports = {
     // no with
     'no-with': 'error',
     // enforce consistent spacing inside array brackets
-    'array-bracket-spacing': [ 'warn', 'always'],
+    'array-bracket-spacing': [ 'warn', 'always', { objectsInArrays: false }],
     // enforce consistent spacing inside single-line blocks
     'block-spacing': [ 'warn', 'always' ],
     // enforce consistent brace style for blocks
-    'brace-style': [ 'warn', '1tbs', { allowSingleLine: true } ],
+    'brace-style': [ 'warn', '1tbs', { allowSingleLine: true }],
     // require trailing commas
     'comma-dangle': [ 'warn', 'always-multiline' ],
     // enforce consistent spacing after commas
-    'comma-spacing': [ 'warn', { before: false, after: true } ],
+    'comma-spacing': [ 'warn', { before: false, after: true }],
     // enforce consistent comma style
     'comma-style': [ 'warn', 'last' ],
     // require newline at the end of files
@@ -53,7 +53,7 @@ module.exports = {
     // disallow spacing between function identifiers and their invocations
     'func-call-spacing': [ 'warn', 'never' ],
     // enforce consistent indentation
-    'indent': [ 'warn', 2 ],
+    indent: [ 'warn', 2 ],
     // enforce consistent spacing between keys and values in object literal properties
     'key-spacing': [ 'warn', {
       beforeColon: false,
@@ -65,11 +65,11 @@ module.exports = {
     // disallow trailing whitespace at the end of lines
     'no-trailing-spaces': 'warn',
     // enforce the consistent use of single quotes
-    'quotes': [ 'warn', 'single' ],
+    quotes: [ 'warn', 'single' ],
     // disallow quotes around object literal property names
     'quote-props': [ 'warn', 'as-needed' ],
     // disallow semicolons instead of ASI
-    'semi': [ 'warn', 'never' ],
+    semi: [ 'warn', 'never' ],
     // require space before blocks
     'space-before-blocks': [ 'warn', 'always' ],
     // require space before function parenthesis
@@ -104,5 +104,5 @@ module.exports = {
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     // allow console during development
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
-  }
+  },
 }
