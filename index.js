@@ -96,6 +96,8 @@ module.exports = {
     'object-shorthand': 'warn',
     // require const declarations for variables that are never reassigned after declared
     'prefer-const': 'warn',
+    // require let or const instead of var
+    'no-var': 'warn',
     // require using Error objects as Promise rejection reasons
     'prefer-promise-reject-errors': 'warn',
     // disallow unused variables
